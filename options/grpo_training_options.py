@@ -1,0 +1,30 @@
+GRPO_TRAINING_OPTIONS = {
+    "default": {},
+    ## Data
+    "slice_proportion_15p": {"slice_proportion": 0.15},
+    "slice_proportion_25p": {"slice_proportion": 0.25},
+    ## Model
+    "model-latent-6": {"model_path_or_repo": "Lapisbird/adaLR-model-latent-6"},
+    "model-latent-6-by-1": {"model_path_or_repo": "Lapisbird/adaLR-model-latent-6-by-1"},
+    "binary_head_temp_1": {"binary_head_temp": 1.0},
+    "binary_head_temp_2": {"binary_head_temp": 2.0},
+    "binary_head_temp_4": {"binary_head_temp": 4.0},
+    "binary_head_temp_10": {"binary_head_temp": 10.0},
+    ## Training
+    "batch_size_64": {"batch_size": 64},
+    "batch_size_128": {"batch_size": 128},
+    "rel_len_penalty_0p1": {"rel_len_penalty": 0.1},
+    "rel_len_penalty_1e-1": {"rel_len_penalty": 1e-1},
+    "rel_len_penalty_1e-2": {"rel_len_penalty": 1e-2},
+    "rel_len_penalty_1e-3": {"rel_len_penalty": 1e-3},
+    "rel_len_penalty_1e-4": {"rel_len_penalty": 1e-4},
+    "rel_len_penalty_5e-5": {"rel_len_penalty": 5e-5},
+    "rel_len_penalty_1e-5": {"rel_len_penalty": 1e-5},
+    "rel_len_penalty_0": {"rel_len_penalty": 0},
+    "rel_len_acc_req_ALL": {"relative_length_accuracy_requirement": 1},
+    "rel_len_reward_same": {"relative_length_reward": "same"},
+    "rel_len_reward_1": {"relative_length_reward": 1.0},
+    "rel_len_reward_1e-1": {"relative_length_reward": 1e-1},
+    "rel_len_reward_1e-2": {"relative_length_reward": 1e-2},
+    "rel_len_reward_1e-3": {"relative_length_reward": 1e-3},
+}

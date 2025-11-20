@@ -1,0 +1,28 @@
+# Install with `conda env create -f environment.yml`
+# Install into a path with `--prefix <path>`
+# pynvml can optionally be installed to enable utilization-based GPU selection
+# If installing on a login node or something w/o GPUs, you can make sure pytorch is a cuda version by prepending CONDA_OVERRIDE_CUDA=<version> to the install command.
+# Eg. CONDA_OVERRIDE_CUDA="12.1" conda env create -f environment.yml
+
+name: adaptive-latent-thinking
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.7.1
+  - torchdata
+  - transformers=4.53.0
+  - peft
+  - accelerate
+  - trl
+  - numpy<2
+  - datasets
+  - tokenizers
+  - tensorboard
+  - tqdm
+  - ipykernel
+  - iprogress
+  - matplotlib
+  - pip
+  - pip:
+    - -e .

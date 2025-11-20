@@ -1,0 +1,2 @@
+extend-exclude = ["sources/"]
+line-length = 120 # Overrides the global line-length for the formatter
