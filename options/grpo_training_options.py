@@ -4,8 +4,8 @@ GRPO_TRAINING_OPTIONS = {
     "slice_proportion_15p": {"slice_proportion": 0.15},
     "slice_proportion_25p": {"slice_proportion": 0.25},
     ## Model
-    "model-latent-6": {"model_path_or_repo": "Lapisbird/adaLR-model-latent-6"},
-    "model-latent-6-by-1": {"model_path_or_repo": "Lapisbird/adaLR-model-latent-6-by-1"},
+    "model-latent-6": {"model_path_or_repo": "Lapisbird/Llama-adaLR-model-latent-6"},
+    "model-latent-6-by-1": {"model_path_or_repo": "Lapisbird/Llama-adaLR-model-latent-6-by-1"},
     "binary_head_temp_1": {"binary_head_temp": 1.0},
     "binary_head_temp_2": {"binary_head_temp": 2.0},
     "binary_head_temp_4": {"binary_head_temp": 4.0},
