@@ -1,5 +1,7 @@
 # Learning When to Stop: Adaptive Latent Reasoning via Reinforcement Learning
 
+[![arXiv](https://img.shields.io/badge/arXiv-2511.21581-b31b1b.svg)](https://arxiv.org/abs/2511.21581)
+
 Note: This project is a work-in-progress. Active development is performed in a private repo. Updates may not be reflected immediately on public repo.
 
 ### Environment
